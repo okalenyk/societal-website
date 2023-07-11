@@ -9,6 +9,7 @@ import {
   ABOUT_CARDS,
   ADVISORS,
   CARTOGRAPHY,
+  PARTNERS,
   TEAM
 } from 'constants/content-about-page';
 import CartographyCell from 'components/CartographyCell';
@@ -86,30 +87,16 @@ const AboutPage = () => {
           Partners
         </Typography>
         <div className={styles.partnersBlock}>
-          <Image
-            src="/images/logos/ventures-polka.svg"
-            height={94}
-            width={272}
-            objectFit="contain"
-          />
-          <Image
-            src="/images/logos/kusama-kingdom.png"
-            height={94}
-            width={109}
-            objectFit="contain"
-          />
-          <Image
-            src="/images/logos/dia.png"
-            height={94}
-            width={152}
-            objectFit="contain"
-          />
-          <Image
-            src="/images/logos/web-3-foundation.png"
-            height={94}
-            width={212}
-            objectFit="contain"
-          />
+          {PARTNERS.map(({ id, image, widthHeight }) => (
+            <Image
+              src={image}
+              width={widthHeight[0]}
+              height={widthHeight[1]}
+              objectFit="contain"
+              quality={90}
+              key={id}
+            />
+          ))}
         </div>
       </div>
     </MainLayout>

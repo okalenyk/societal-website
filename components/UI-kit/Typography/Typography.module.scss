@@ -15,6 +15,10 @@
   @extend %heading-3;
 }
 
+.h4 {
+  @extend %heading-4;
+}
+
 .title1 {
   @extend %title-1;
 }
@@ -92,7 +96,7 @@
 .glitch:global(.start-animation) {
   &::before,
   &::after {
-    background-color: white;
+    background-color: inherit;
     content: attr(data-text);
     height: 100%;
     left: 0;

@@ -27,7 +27,8 @@ const BenefitsPage = () => {
           objectFit="contain"
         />
         <Typography variant="paragraph1" className={styles.heroDescription}>
-          Societal is application-specific blockchain, purpose-built for DAOs.
+          Societal is an application-specific blockchain, designed for the
+          creation and management of on-chain communities.
         </Typography>
       </div>
       <div className={styles.cardsWrapper}>
@@ -37,12 +38,14 @@ const BenefitsPage = () => {
       </div>
       <div className={styles.slide}>
         <Typography
-          variant="h2"
+          variant="h4"
           className={classNames(styles.heading, styles.bottomTitle)}
-          data-text="Societal’s cross-chain infrastructure and modular operating system is designed for a new age of coordination: Society3.0"
+          data-text="Societal’s composable and customizable solution is the ideal fit for all on-chain communities: 
+          the creator economy, protocols, social clubs, gaming, DAOs, and more."
         >
-          Societal’s cross-chain infrastructure and modular operating system is
-          designed for a new age of coordination: Society3.0
+          Societal’s composable and customizable solution is the ideal fit for
+          all on-chain communities: the creator economy, protocols, social
+          clubs, gaming, DAOs, and more.
         </Typography>
       </div>
     </MainLayout>

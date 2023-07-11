@@ -25,9 +25,9 @@ const ProductPage = () => {
         <Typography
           variant="display1"
           className={classNames(styles.heading, styles.main)}
-          data-text="The Operating System for DAOs"
+          data-text="The easiest place to organize, govern, and grow on-chain communities."
         >
-          The Operating System for DAOs
+          The easiest place to organize, govern, and grow on-chain communities.
         </Typography>
         <Image
           src="/images/product-page-hero-image.png"
@@ -80,14 +80,14 @@ const ProductPage = () => {
         <Typography
           variant="h2"
           className={styles.heading}
-          data-text="The “Shopify App Store” for DAOs"
+          data-text='The "Shopify App Store" for Web3'
         >
-          The “Shopify App Store” for DAOs
+          The &quot;Shopify App Store&quot; for Web3
         </Typography>
         <Typography variant="body1" className={styles.slideDescription}>
-          Existing and future DAO tooling can deploy on Societal’s
-          EVM-compatible chain, empowering digital organizations to build a
-          tailor-made operating system.
+          On-chain management tooling can deploy on Societal’s EVM-compatible
+          chain, empowering the creation of tailor-made community management
+          systems.
         </Typography>
         <div className={styles.lottieWrapper}>
           <Lottie
@@ -107,8 +107,8 @@ const ProductPage = () => {
           Discover
         </Typography>
         <Typography variant="body1" className={styles.slideDescription}>
-          Find, follow, and join existing DAOs of all sizes and shapes. The
-          future is DAO.
+          Find, follow, and join existing on-chain communities of all shapes and
+          sizes. Help build Society 3.0.
         </Typography>
         <div className={styles.lottieWrapper}>
           <Lottie

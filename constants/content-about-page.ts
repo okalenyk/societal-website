@@ -2,14 +2,14 @@ export const ABOUT_CARDS = [
   {
     title: 'Society 3.0',
     description:
-      'Drawing inspiration from the solarpunk movement, we seek to align the masses on our core vision: to create a more open, self-sustainable, and fair society through technology: Society 3.0',
+      'Drawing inspiration from the solarpunk movement, we seek to align the masses on our core vision: to create a more open, self-sustainable, and fairer society through technology.',
     img: '/images/about-page-society.png',
     imgPsn: 'right'
   },
   {
     title: 'Progress is the Realization of Utopia',
     description:
-      'Deeply aligned with the solarpunk ethos, we believe DAO frameworks should be seen as the end game for all those building the web3 paradigm.',
+      'Deeply aligned with the solarpunk ethos, we believe on-chain governance frameworks should be seen as the end game for all those building the web3 paradigm.',
     descriptionSecondary:
       'We envision a new society of ever-evolving digital cities; progress made following a standard of collective intelligence and shared values.',
     img: '/images/about-page-progress.png',
@@ -135,5 +135,58 @@ export const ADVISORS = [
     position: 'DAO/Ecosystem Advisor',
     img: '/images/advisors/paul-claudius.png',
     logo: '/images/logos/dia.png'
+  }
+];
+
+export const PARTNERS = [
+  {
+    id: 'outlier-ventures',
+    image: '/images/logos/outlier-ventures.png',
+    widthHeight: [300, 84]
+  },
+  {
+    id: 'web-3-foundation',
+    image: '/images/logos/web-3-foundation.png',
+    widthHeight: [212, 94]
+  },
+  {
+    id: 'partner-polkadot',
+    image: '/images/logos/partner-polkadot.png',
+    widthHeight: [300, 94]
+  },
+  {
+    id: 'partner-polkadot-relayers',
+    image: '/images/logos/partner-polkadot-relayers.png',
+    widthHeight: [180, 125]
+  },
+  {
+    id: 'kusama-kingdom',
+    image: '/images/logos/kusama-kingdom.png',
+    widthHeight: [149, 124]
+  },
+  {
+    id: 'dia',
+    image: '/images/logos/dia.png',
+    widthHeight: [150, 94]
+  },
+  {
+    id: 'rmrk',
+    image: '/images/logos/partner-rmrk.png',
+    widthHeight: [204, 70]
+  },
+  {
+    id: 'talisman',
+    image: '/images/logos/partner-talisman.png',
+    widthHeight: [240, 68]
+  },
+  {
+    id: 'subsquid',
+    image: '/images/logos/partner-subsquid.png',
+    widthHeight: [240, 65]
+  },
+  {
+    id: 'subwallet',
+    image: '/images/logos/partner-subwallet.png',
+    widthHeight: [230, 90]
   }
 ];

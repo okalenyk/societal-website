@@ -27,6 +27,16 @@
   @include mixins.typography(40px, $font-weight: 600);
 
   line-height: 60px;
+
+  @include mixins.mobile-only {
+    font-size: 32px;
+  }
+}
+
+@mixin heading-4 {
+  @include mixins.typography(36px, $font-weight: 500);
+
+  line-height: 60px;
 }
 
 @mixin title-1 {
@@ -101,14 +111,14 @@
   }
 
   @include mixins.large-tablet {
-    font-size: 84px;
-    line-height: 120px;
+    font-size: 74px;
+    line-height: 110px;
   }
 
-  @include mixins.large-tablet {
-    font-size: 100px;
-    letter-spacing: 0.12em;
-    line-height: 150px;
+  @include mixins.large-desktop {
+    font-size: 86px;
+    letter-spacing: 0.1em;
+    line-height: 130px;
   }
 }
 
@@ -133,10 +143,10 @@
 
 %heading-3 {
   @include heading-3;
+}
 
-  @include mixins.mobile-only {
-    font-size: 32px;
-  }
+%heading-4 {
+  @include heading-4;
 }
 
 %title-1 {

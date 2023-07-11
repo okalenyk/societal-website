@@ -60,7 +60,7 @@ const SubscribeSection: React.FC = () => {
   return (
     <section className={styles.root}>
       <Typography variant="h2" glitch>
-        Ready to join Society3.0?
+        Ready to join Society 3.0?
       </Typography>
       <Typography variant="body1" className={styles.description}>
         Connect with Societal

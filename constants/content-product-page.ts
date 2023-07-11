@@ -35,28 +35,28 @@ export const TEXT_TILES_PRODUCT_PAGE = [
   {
     title: 'Create',
     description:
-      'Build a specialized DAO in minutes. No coding experience required.',
+      'Build an on-chain community in minutes - no coding experience required.',
     img: '/images/product-create.png',
     imgPsn: 'right'
   },
   {
     title: 'Decentralize',
     description:
-      'Transition a protocol or DApp into a community-operated DAO. Progressive decentralization is a feature, not a bug.',
+      'Transition a community into a fully self-governed organization. Progressive decentralization is a feature, not a bug.',
     img: '/images/product-decentralize.png',
     imgPsn: 'left'
   },
   {
     title: 'Transfer',
     description:
-      'Port an existing DAO to the Societal network. Enable better coordination on a blockchain designed to run digital organizations.',
+      'Port an existing token contract to the Societal network. Unlock better coordination on a blockchain designed for on-chain communities.',
     img: '/images/product-transfer.png',
     imgPsn: 'right'
   },
   {
     title: 'Manage',
     description:
-      'Seamlessly manage every DAO operation in one dashboard. Web and mobile friendly.',
+      'Manage all community operations from a single app. Web and mobile friendly.',
     img: '/images/product-manage.png',
     imgPsn: 'left'
   }

@@ -1,18 +1,11 @@
+/* eslint-disable import/prefer-default-export */
 import { ABOUT, BENEFITS, PRODUCT } from './paths';
-
-export const BANNER_TITLES = [
-  'Society',
-  'Web',
-  'Organizations',
-  'Work',
-  'Community'
-];
 
 export const CARDS_HOME_PAGE = [
   {
-    title: 'Infrastructure for the next generation of DAOs',
+    title: 'Infrastructure for the next generation of on-chain communities',
     description:
-      'Decentralized frameworks are the future of industry. We need trustless, inclusive, and interconnected systems now more than ever.',
+      'Community is the backbone of web3. Societal is a trustless, interconnected network designed to trigger rapid innovation.',
     img: '/images/home-card-2.png',
     descriptionMaxWidth: 308,
     href: BENEFITS
@@ -20,7 +13,7 @@ export const CARDS_HOME_PAGE = [
   {
     title: 'Technology for a new age of human coordination',
     description:
-      'Societal’s web3-native operating system is streamlined, EVM-compatible, and modular - a powerful toolkit for DAOs at every stage.',
+      'Societal’s web3-native operating system is streamlined, EVM-compatible, and modular - a powerful toolkit for communities at every stage.',
     img: '/images/home-card-3.png',
     descriptionMaxWidth: 333,
     href: PRODUCT
