@@ -2,6 +2,7 @@ import { ReactComponent as Twitter } from 'public/images/icons/twitter.svg';
 import { ReactComponent as Discord } from 'public/images/icons/discord.svg';
 import { ReactComponent as Medium } from 'public/images/icons/medium.svg';
 import { ReactComponent as Email } from 'public/images/icons/email.svg';
+import { ReactComponent as Youtube } from 'public/images/icons/youtube.svg';
 import { ABOUT, BENEFITS, HOME, PRODUCT } from './paths';
 
 export const menuList = [
@@ -53,6 +54,10 @@ export const menuResources = [
 ];
 
 export const socialList = [
+  {
+    icon: Youtube,
+    link: 'https://www.youtube.com/@societal_xyz'
+  },
   {
     icon: Twitter,
     link: 'https://twitter.com/societal_xyz'
